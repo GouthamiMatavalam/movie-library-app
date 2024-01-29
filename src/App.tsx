@@ -38,7 +38,7 @@ function App() {
 
   //Id is assumed as unique id, considered as key
   return (
-    <div>
+    <div className='App'>
       {movies.map((items) => (<div className="movieContainer" key={items.id}>
         <h1>{items.title}</h1>
         {items.poster_path && (
