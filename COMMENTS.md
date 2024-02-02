@@ -8,4 +8,5 @@ Includes assumptions considered while creating application.
       The reason to consider is, I wanted to make app available globally and also the API was readily available so leveraged it to implement the same.
   5. Once the data is fetched, send the complete data using POST method to backend service to store the data in MongoDB.
       This also shows communication between front end and backend. Considered complete data of Movie received from API, to store in DB
+  6. Considered Pagination to go through complete movie list, for state management.
 
