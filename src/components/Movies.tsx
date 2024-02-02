@@ -34,8 +34,8 @@ const Movies = () => {
 
       const { results, total_pages } = response.data;
 
-      //Considered to diplay 8 images in single page
-      setShowItems(results.slice(0, 8));
+      //Considered to diplay 6 images in single page
+      setShowItems(results.slice(0, 6));
       setTotalPages(total_pages);
 
       // After receiving response data from TheMovieDB, considered inserting data only once
