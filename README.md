@@ -1,6 +1,6 @@
-# TMDB - Movie Library Application
+# FilmHive [TMDB - Movie Library Application]
 
-The application is a front end to list the movies available in TheMovieDB, I have cosnidered to list the popular moviess. The Application also searches for Movies in API, you can go through the list of movies using next and previous buttons.
+The application is a front end to list the movies available in TheMovieDB, I have considered to list the popular movies. The Application also searches for Movies in API, you can go through the list of movies using next and previous buttons.
 
 ![Moviedetails](https://github.com/GouthamiMatavalam/movie-library-app/assets/38003356/f53ebbf6-0392-495b-8eb1-69f8df2b2cf8)
 
