@@ -25,4 +25,6 @@ Note :
 The code also integrates with Backend EpressJS application and inserts data in Local Mongo DB.
 Please follow the instructions available for Backend service setup available at - https://github.com/GouthamiMatavalam/app-server/new/master?filename=README.md.
 
-Once the Backend setup is done and application is working, Please update moviesApi in api_links with your api.
+Once the Backend setup is done and application is working, Please update "moviesApi" in api_links with your api.
+
+After starting application, application would be running locally
