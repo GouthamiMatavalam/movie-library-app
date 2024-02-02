@@ -15,17 +15,13 @@ Below are the prerequisites required to run the application.
 **## Installation**
 Below are the steps that could be used to setup the applciation locally.
 
-Get a free API Key at https://www.themoviedb.org/ 
-
-_Clone the repo :_
-https://github.com/GouthamiMatavalam/movie-library-app.git
-
-_Install NPM packages
-_npm install
-
-Enter your API Key in api_links
+1. Get a free API Key at https://www.themoviedb.org/ 
+2. Clone the repo : https://github.com/GouthamiMatavalam/movie-library-app.git
+3. Install NPM packages : npm install
+4. Enter your API Key in api_links
 const apikey = 'ENTER YOUR API';
 
+Note :
 The code also integrates with Backend EpressJS application and inserts data in Local Mongo DB.
 Please follow the instructions available for Backend service setup available at - https://github.com/GouthamiMatavalam/app-server/new/master?filename=README.md.
 
