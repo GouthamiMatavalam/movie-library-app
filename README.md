@@ -6,13 +6,13 @@ The application is a front end to list the movies available in TheMovieDB, I hav
 React JS
 TypesScript
 
-**## Prerequisites**
+** Prerequisites**
 Below are the prerequisites required to run the application.
 
 1. VScode as an editor.
 2. npm install
 
-**## Installation**
+** Installation**
 Below are the steps that could be used to setup the applciation locally.
 
 1. Get a free API Key at https://www.themoviedb.org/ 
