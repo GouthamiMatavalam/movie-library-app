@@ -4,6 +4,8 @@ The application is a front-end to list the movies available in TheMovieDB, I hav
 
 ![Moviedetails](https://github.com/GouthamiMatavalam/movie-library-app/assets/38003356/f53ebbf6-0392-495b-8eb1-69f8df2b2cf8)
 
+You can view the deployed application in - https://film-hive-movies-app.netlify.app/.
+
 ## Built with
 React JS,
 TypesScript
