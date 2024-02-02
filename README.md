@@ -3,7 +3,7 @@
 The application is a front end to list the movies available in TheMovieDB, I have cosnidered to list the popular moviess. The Application also searches for Movies in API, you can go through the list of movies using next and previous buttons.
 
 ## Built with
-React JS
+React JS,
 TypesScript
 
 **Prerequisites**
