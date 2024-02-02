@@ -1,7 +1,7 @@
 import React from 'react'
 import { MoviesWrapper } from '../movies.modules'
 import axios from 'axios'
-import { discoverEndPoint, searchEndPoint, imageEndpoint} from '../api_links'
+import { discoverEndPoint, searchEndPoint, imageEndpoint, moviesApi } from '../api_links'
 
 //Considered necessary information to populate the data
 interface MoviedDetails {
@@ -34,10 +34,29 @@ const Movies = () => {
 
       const { results, total_pages } = response.data;
 
-      //Considered to diplay 18 images in single page
+      //Considered to diplay 8 images in single page
       setShowItems(results.slice(0, 8));
       setTotalPages(total_pages);
 
+      // After receiving response data from TheMovieDB, considered inserting data only once
+      let executedOnce: boolean = false;
+
+      const responseObj = JSON.stringify(response.data);
+
+      // Implemented POST call to execute backend API, implemented using Express Js
+      if (!executedOnce) {
+        executedOnce = true;
+        await fetch(moviesApi, {
+          method: 'POST',
+          body: responseObj,
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+        });
+      } else {
+        console.log('Already executed once !!');
+      }
     } catch (error) {
       console.error("Something went wrong, Try Again ,", error);
     }
@@ -86,7 +105,6 @@ const Movies = () => {
           )
         })}
       </div>
-
       <div className='buttons'>
         {currentPage > 1 && (
           <button className='btnPrev' onClick={() => navigatePages('prev')}>
